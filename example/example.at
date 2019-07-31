@@ -1,0 +1,11 @@
+(defn inc (x) (+ 1 x))
+
+(defn fizzbuzz (n)
+  (doseq (i (range 1 n#inc))
+         (match (list (mod i 3) (mod i 5))
+                (0 0) (console:log "FizzBuzz")
+                (0 _) (console:log "Fizz")
+                (_ 0) (console:log "Buzz")
+                _     (console:log i))))
+
+(fizzbuzz 20)
