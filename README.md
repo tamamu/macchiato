@@ -2,6 +2,12 @@
 
 **TODO: Add Symbol Type**
 
+## Build
+
+```sh
+mix escript.build
+```
+
 ## Usage
 
 ```sh
